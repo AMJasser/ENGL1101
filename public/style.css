@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Proxima Nova Condensed Regular';
+}
+
+header {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 150px;
+    color: white;
+}
+
+header h1 {
+    height: fit-content;
+    width: fit-content;
+}
+
+header nav a {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+body > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 150px;
+}
+
+main {
+    width: 900px;
+}
+
+main h2 {
+    font-size: 50px;
+    font-family:'Proxima Nova Condensed bold';
+    font-weight: bold;
+}
+
+main nav {
+    margin: 30px 0;
+}
+
+main nav a {
+    color: #02838d;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+main p {
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-family:'Proxima Nova Condensed Light';
+}
+
+main p a {
+    color: #02838d;
+    text-decoration: none;
+}
+
+main h3 {
+    margin: 15px 0;
+    font-size: 38px;
+    font-family:'Proxima Nova Condensed bold';
+}
+
+main ul {
+    font-size: 20px;
+    margin-left: 40px;
+    font-family:'Proxima Nova Condensed Light';
+    list-style-image: url("data:image/svg+xml,%3Csvg width='10' height='10' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='5' cy='5' r='2.5' fill='%23EC1C82'/%3E%3C/svg%3E");
+}
+
+main ul li {
+    margin-bottom: 10px;
+}
+
+aside {
+    width: 300px;
+}
+
+aside div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside img {
+    border-radius: 50%;
+    width: 75px;
+}
+
+aside p {
+    font-size: 15px;
+    width: 200px;
+}
+
+aside hr {
+    border: none;
+    height: 7px;
+    color: #000;
+    background-color: #000;
+}
+
+main div img {
+    width: 20px;
+    margin: 0 10px;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    padding: 60px;
+}
+
+footer nav {
+    color: #dcdbdb;
+}
+
+footer nav a {
+    color: #dcdbdb;
+}
